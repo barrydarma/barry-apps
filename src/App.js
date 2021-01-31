@@ -51,7 +51,7 @@ class App extends Component {
 
   toggleIcon(iconId) {
     let currentIcon = Boolean(this.state.icons[iconId])
-    this.setState({
+    this.setState({ 
       icons: {
         ...this.state.icons,
         [iconId]: !currentIcon
